@@ -1,35 +1,46 @@
 #include <iostream>
 using namespace std;
-int main() {
-int day;
-cout << "Enter day number (1-7): ";
-cin >> day;
-switch(day)
-{
-case 1:
-cout << "Monday";
-break;
-case 2:
-cout << "Tuesday";
-break;
-case 3:
-cout << "Wednesday";
-break;
-case 4:
-cout << "Thursday";
-break;
-case 5:
-cout << "Friday";
-break;
-case 6:
 
-cout << "Saturday";
-break;
-case 7:
-cout << "Sunday";
-break;
-default:
-cout << "Invalid Day";
+int main() {
+  
+	int i,num,sum=0;
+//	print 1 to 10
+//	for(i=1; i<=10; i++){
+//		cout<<i<<" ";
+//	}
+
+//	print 10 to 1
+//	for(i=10; i>=1; i--){
+//		cout<<i<<" ";
+//	}
+
+//	print even number
+//	for(i=2; i<=100; i=i+2){
+//		cout<<i<<" ";
+//	}
+
+//	print odd number
+//	for(i=1; i<=100; i=i+2){
+//		cout<<i<<" ";
+//	}
+
+
+	cout<<"enter your number";
+	cin>>num;
+	
+//	1 to n number print
+	for(i=1; i<=num; i++){
+		cout<<i<<" ";
+		sum+=i;
+		
+	}
+	cout<<"sum "<<sum<<endl;
+
+	
+
+
+  return 0;
 }
-return 0;
-}
+  
+  
+
