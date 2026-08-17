@@ -3,17 +3,14 @@
 using namespace std;
 void even(int num){
 	if(num%2==0){
-		cout<<"odd";
+		cout<<"this num is odd";
 	}else{
-		cout<<"even";
+		cout<<"this num is even";
 	}
 	
 }
 int main(){
-	int num;
-	cout<<"enter a num";
-	cin>>num;
 	
-	even(num);
+	even(7);
 	return 0;
 }
